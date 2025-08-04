@@ -1,8 +1,6 @@
 ---
-description: Generate service-based lead magnets - 3 thought leadership LinkedIn posts for prospects based on their existing content/profile research
 alwaysApply: false
 ---
-
 # Service-Based Lead Magnet Generator
 
 ## Purpose
@@ -73,12 +71,37 @@ Before generating content:
 - **Original angle** - Find unique perspectives on common industry topics
 
 ### LinkedIn Formatting Requirements
-Apply all rules from `-writing-rules/linkedin-rules.mdc`:
-- 3,000 character limit maximum
-- First 200 characters optimized for engagement
-- Platform-appropriate formatting and hooks
-- Include relevant hashtags for their industry
-- Clear value proposition in opening lines
+**CRITICAL**: Each LinkedIn post MUST follow ALL formatting rules from `-writing-rules/linkedin-rules.mdc`
+
+**Character Limit**: Posts must stay under 2,800 characters (non-negotiable)
+
+**Required LinkedIn Structure**:
+1. **First 200 Characters**: Must be a hook with cliffhanger (Strong declarative statement, thought-provoking question, controversial opinion, unique stat, or meaningful moment)
+2. **Introduction (200-400 chars)**: 4-block structure - Hook → Promise → Solution → Transition
+3. **Content Style**: Must use one of 5 approved styles: Steps, Stats, Mistakes, Lessons, or Examples
+4. **Headers**: Use numbered format (1/, 2/, 3/ or Step 1:, Step 2:, etc.) written in sentence style
+5. **Alternating Format**: MUST alternate between bulleted lists and paragraph style across sections
+6. **Section Structure**: What (declarative line) → How (3-5 tactical points) → Why (insight/benefit)
+
+**Pre-Publication Checklist**:
+- [ ] Character count verified under 2,800
+- [ ] First 200 characters create compelling hook with cliffhanger
+- [ ] Headers use proper numbered formatting
+- [ ] Alternating bullet/paragraph format maintained
+- [ ] Industry-specific hashtags included
+- [ ] Content follows one of the 5 approved LinkedIn styles
+
+**Reference**: See `-writing-rules/linkedin-rules.mdc` for complete formatting specifications
+
+### Citation Requirements
+**MANDATORY**: Every lead magnet must include a citations section documenting all sources used:
+- Industry research reports and data sources
+- Company information sources (LinkedIn, websites, press releases)
+- Market trend analysis and statistics
+- Expert insights and industry publications
+- Competitive intelligence sources
+
+**Citation Format**: Use standard format with publication date, source name, and URL when available
 
 ### Quality Standards
 - **Authentic voice** - Match the prospect's communication style and industry terminology
@@ -98,7 +121,11 @@ Generate exactly 3 LinkedIn posts with this structure:
 **Topic**: [Specific industry debate or choice]
 **Angle**: [The stance being taken]
 
-[Full LinkedIn post content following formatting rules]
+[Full LinkedIn post content following ALL rules from `-writing-rules/linkedin-rules.mdc`]
+- Character count: [X]/2,800
+- Style used: [Steps/Stats/Mistakes/Lessons/Examples]
+- Hook verified: [✓] Creates cliffhanger in first 200 characters
+- Format verified: [✓] Alternates bullets/paragraphs across sections
 
 **Strategic Notes**: [Why this position matters in their industry]
 
@@ -108,7 +135,11 @@ Generate exactly 3 LinkedIn posts with this structure:
 **Topic**: [Specific process or result area]
 **Focus**: [The expertise being demonstrated]
 
-[Full LinkedIn post content following formatting rules]
+[Full LinkedIn post content following ALL rules from `-writing-rules/linkedin-rules.mdc`]
+- Character count: [X]/2,800
+- Style used: [Steps/Stats/Mistakes/Lessons/Examples]
+- Hook verified: [✓] Creates cliffhanger in first 200 characters
+- Format verified: [✓] Alternates bullets/paragraphs across sections
 
 **Strategic Notes**: [How this demonstrates relevant expertise]
 
@@ -118,7 +149,11 @@ Generate exactly 3 LinkedIn posts with this structure:
 **Topic**: [Industry trend or future prediction]
 **Research Basis**: [Data/sources supporting the prediction]
 
-[Full LinkedIn post content following formatting rules]
+[Full LinkedIn post content following ALL rules from `-writing-rules/linkedin-rules.mdc`]
+- Character count: [X]/2,800
+- Style used: [Steps/Stats/Mistakes/Lessons/Examples]
+- Hook verified: [✓] Creates cliffhanger in first 200 characters
+- Format verified: [✓] Alternates bullets/paragraphs across sections
 
 **Strategic Notes**: [Why this prediction matters for their business]
 
@@ -128,7 +163,64 @@ Generate exactly 3 LinkedIn posts with this structure:
 - Use as conversation starter: "I analyzed your content and created 3 posts you might find useful..."
 - Position as: "Here's what I'd create if we worked together"
 - Follow up with: "Which of these resonates most with your current strategy?"
+
+## Research Citations
+*All sources used in developing this lead magnet content*
+
+### Industry Research
+1. [Industry report title] - [Publisher], [Date] - [URL]
+2. [Market trend analysis] - [Source], [Date] - [URL]
+
+### Company Intelligence  
+1. [Company LinkedIn page] - [Date accessed] - [URL]
+2. [Company website analysis] - [Date accessed] - [URL]
+3. [Press releases/announcements] - [Source], [Date] - [URL]
+
+### Competitive Analysis
+1. [Competitor research sources] - [Date] - [URL]
+2. [Industry benchmarks] - [Source], [Date] - [URL]
+
+### Expert Sources
+1. [Industry publications] - [Author], [Date] - [URL]
+2. [Thought leader insights] - [Source], [Date] - [URL]
+
+*Citations ensure content authenticity and enable verification of research claims*
 ```
+
+## File Organization & Placement
+
+### Folder Structure
+Create a dedicated folder for all service-based lead magnets:
+```
+Multi-Client Workspace/
+├── service-lead-magnets/
+│   ├── john-smith.md
+│   ├── sarah-johnson.md
+│   └── mike-chen.md
+```
+
+### File Naming Convention
+- Extract the prospect's name from the chat prompt
+- Convert to lowercase with hyphens instead of spaces
+- Use `.md` extension for Markdown files
+- Examples:
+  - "Generate lead magnet for John Smith" → `john-smith.md`
+  - "Create content for Sarah Johnson" → `sarah-johnson.md`
+  - "Lead magnet for Mike Chen at TechCorp" → `mike-chen.md`
+
+### File Content Structure
+Each lead magnet file should contain:
+1. **Header**: Prospect name and research source
+2. **Three complete LinkedIn posts** with strategic notes and verification details
+3. **Delivery strategy** specific to that prospect
+4. **Follow-up recommendations** based on their industry/role
+5. **Research citations**: Complete documentation of all sources used (MANDATORY)
+
+### Organization Benefits
+- **Easy retrieval**: Quickly find previous lead magnets by prospect name
+- **Template library**: Build a collection of successful examples over time
+- **Progress tracking**: See which prospects you've created content for
+- **Reusability**: Reference successful approaches for similar prospects
 
 ## Key Success Variables
 
@@ -151,6 +243,20 @@ Generate exactly 3 LinkedIn posts with this structure:
 - Avoid generic business content
 - Find angles specific to their industry/niche
 - Demonstrate deep understanding of their market
+
+### LinkedIn Compliance
+- **Non-negotiable formatting**: Every post must follow `-writing-rules/linkedin-rules.mdc` exactly
+- **Character limits**: All posts under 2,800 characters with verified counts
+- **Hook optimization**: First 200 characters create compelling cliffhangers
+- **Style consistency**: Use only approved LinkedIn styles (Steps, Stats, Mistakes, Lessons, Examples)
+- **Platform optimization**: Content designed for LinkedIn algorithm and user behavior
+
+### Research Accountability
+- **Complete citations**: Every fact, statistic, and industry insight must be cited
+- **Source verification**: All claims must be traceable to credible sources
+- **Date tracking**: Research access dates documented for time-sensitive information
+- **URL preservation**: Direct links provided for digital sources when available
+- **Transparency**: Citations enable quality control and fact-checking by supervisors
 
 ## Common Applications
 
