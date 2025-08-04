@@ -1,0 +1,177 @@
+---
+description: Generate service-based lead magnets - 3 thought leadership LinkedIn posts for prospects based on their existing content/profile research
+alwaysApply: false
+---
+
+# Service-Based Lead Magnet Generator
+
+## Purpose
+Create high-value "service-based lead magnets" that demonstrate your expertise by analyzing a prospect's existing content and generating 3 tailored LinkedIn thought leadership posts they can immediately use. This strategy proves your competence while providing genuine value, making prospects more likely to engage with your services.
+
+## Input Methods
+The agent should accept any of these inputs to research the prospect:
+1. **Name only** - "Generate lead magnet for [John Smith]"
+2. **LinkedIn profile URL** - Paste the LinkedIn profile link
+3. **Website URL** - Company or personal website
+4. **Existing content** - Direct paste of their LinkedIn posts, blog articles, or other content
+
+## Research Process
+Before generating content:
+1. **Analyze their current content strategy** - What topics do they cover? What's their voice/tone?
+2. **Identify content gaps** - What important topics are they missing?
+3. **Study their audience engagement** - Which posts perform well? What resonates?
+4. **Research their industry trends** - Current challenges, emerging opportunities
+5. **Find their unique positioning** - What makes them different in their space?
+
+## Three Pillars of Thought Leadership Framework
+
+### Pillar 1: Plant a Flag (Tell the Truth)
+**Concept**: Pick a stance and defend it confidently
+- Choose between competing approaches (speed vs quality, growth vs profitability, etc.)
+- Take a position that creates healthy debate
+- Avoid fence-sitting or "it depends" content
+- Base the stance on industry research and trends
+
+**LinkedIn Post Structure**:
+- Strong declarative opening statement
+- 2-3 supporting points with evidence
+- Real-world example or scenario
+- Clear position statement ending
+
+### Pillar 2: Prove Competence (Show Results)
+**Concept**: Demonstrate expertise through concrete evidence
+- Share case studies (can be anonymized: "SaaS client" vs naming them)
+- Present before/after scenarios
+- Document processes and methodologies
+- Show measurable outcomes and results
+
+**LinkedIn Post Structure**:
+- Hook with a specific result or outcome
+- Brief context/challenge description
+- Step-by-step process or strategy used
+- Quantified results and key takeaways
+
+### Pillar 3: Predict the Future (Industry Intelligence)
+**Concept**: Share research-based predictions about industry direction
+- Analyze emerging trends and their implications
+- Predict market shifts based on current data
+- Identify opportunities others are missing
+- Connect dots between seemingly unrelated industry changes
+
+**LinkedIn Post Structure**:
+- Bold prediction or trend statement
+- Supporting data/research citations
+- Current examples proving the trend
+- Actionable advice for adapting
+
+## Content Generation Requirements
+
+### Research Standards
+- **No speculation** - All predictions must be backed by research, data, or current market evidence
+- **Industry-specific** - Content must be relevant to prospect's specific niche/industry
+- **Actionable** - Each post should provide concrete next steps or insights
+- **Original angle** - Find unique perspectives on common industry topics
+
+### LinkedIn Formatting Requirements
+Apply all rules from `-writing-rules/linkedin-rules.mdc`:
+- 3,000 character limit maximum
+- First 200 characters optimized for engagement
+- Platform-appropriate formatting and hooks
+- Include relevant hashtags for their industry
+- Clear value proposition in opening lines
+
+### Quality Standards
+- **Authentic voice** - Match the prospect's communication style and industry terminology
+- **High value** - Each post should be immediately usable and valuable
+- **Differentiated** - Avoid generic business advice; focus on their specific challenges
+- **Credible** - Include data, examples, or references to support claims
+
+## Output Format
+
+Generate exactly 3 LinkedIn posts with this structure:
+
+```
+# Service-Based Lead Magnet for [Prospect Name]
+*Based on analysis of [their content/profile/website]*
+
+## Post 1: Plant a Flag (Position/Stance)
+**Topic**: [Specific industry debate or choice]
+**Angle**: [The stance being taken]
+
+[Full LinkedIn post content following formatting rules]
+
+**Strategic Notes**: [Why this position matters in their industry]
+
+---
+
+## Post 2: Prove Competence (Results/Process)
+**Topic**: [Specific process or result area]
+**Focus**: [The expertise being demonstrated]
+
+[Full LinkedIn post content following formatting rules]
+
+**Strategic Notes**: [How this demonstrates relevant expertise]
+
+---
+
+## Post 3: Predict the Future (Trend/Intelligence)
+**Topic**: [Industry trend or future prediction]
+**Research Basis**: [Data/sources supporting the prediction]
+
+[Full LinkedIn post content following formatting rules]
+
+**Strategic Notes**: [Why this prediction matters for their business]
+
+---
+
+## Delivery Strategy
+- Use as conversation starter: "I analyzed your content and created 3 posts you might find useful..."
+- Position as: "Here's what I'd create if we worked together"
+- Follow up with: "Which of these resonates most with your current strategy?"
+```
+
+## Key Success Variables
+
+### Congruence
+- Lead magnet should represent actual work you'd do as their ghostwriter
+- Content quality should match your premium service level
+- Topics should align with their business objectives
+
+### Easy Fulfillment
+- Research process should be efficient and replicable
+- Use existing tools and resources for research
+- Template approach while maintaining customization
+
+### High Value
+- Posts should be immediately publishable
+- Each piece should drive engagement for their profile
+- Strategic value should be obvious to the prospect
+
+### Uniqueness
+- Avoid generic business content
+- Find angles specific to their industry/niche
+- Demonstrate deep understanding of their market
+
+## Common Applications
+
+### For Different Prospect Types
+- **Coaches/Consultants**: Focus on client transformation stories and methodology breakdowns
+- **SaaS Founders**: Emphasize growth metrics, product positioning, and market analysis
+- **Service Providers**: Highlight process improvements, client results, and industry predictions
+- **Thought Leaders**: Strengthen their existing positioning with data-backed insights
+
+### Follow-Up Integration
+- Include these posts in welcome DM sequences
+- Reference in bio CTAs: "DM me 'CONTENT' for 3 LinkedIn posts I'd create for your industry"
+- Use as email newsletter content
+- Leverage for social selling conversations
+
+## Research Sources to Utilize
+- Their existing LinkedIn posts and engagement patterns
+- Company website and blog content
+- Industry reports and trend analyses
+- Competitor content analysis
+- Recent news and developments in their sector
+- Professional publications and thought leaders they follow
+
+Remember: This is "free work" that demonstrates the value of your full service while building trust and starting conversations with ideal prospects.
