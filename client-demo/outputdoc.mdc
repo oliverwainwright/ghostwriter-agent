@@ -1,0 +1,65 @@
+---
+description: if agentically generating content for this folder, reference this for the client's weekly content needs. 
+alwaysApply: false
+---
+## Prolific Quality Output
+When "generate content outlines/placeholders" is prompted, please prepare new files for each of the following platforms. 
+
+    1. LinkedIn - 6 posts/week
+    2. Twitter - 2 posts/day
+    3. Substack - 2 posts/week
+    4. YouTube - 3 videos/week
+    5. Kit Email - 1/day
+
+The goal is to start with LinkedIn and Twitter. 
+Each week, we'll analyze the results from the interest with Our audience on the short-form platforms (in order to create the larger assets, AKA YouTube and Substack). The Kit email will serve similarly to LinkedIn and Twitter. With a daily email, just copywriting and keeping people engaged to see if people like being on the list.
+
+Referencing the post that I point you to in our document, we will build the long-form content off of the best hits from our short-form iteration from the previous one or two weeks.
+
+Generate one new file for each post, name it after the day, and then we will give it a title based on the topic that we need to write about or post about.
+
+## Brand Reference
+if we don't have content we're basing the content off of, reference @brand.md
+
+## Folder Nesting Example
+ 
+    7
+        28th
+            li-agent-orchestration.md
+            x-all-shortform.md
+            ss-orchestration.md
+            yt-orchestration.md
+            kit-spinning-plates.md
+        29th
+            li-apocalypse-acc.md
+            x-all-shortform.md## Prolific Quality Output
+When "generate content outlines/placeholders" is prompted, please prepare new files for each of the following platforms. 
+
+    1. LinkedIn - 6 posts/week
+    2. Twitter - 2 posts/day
+    3. Substack - 2 posts/week
+    4. YouTube - 3 videos/week
+    5. Kit Email - 1/day
+
+The goal is to start with LinkedIn and Twitter. 
+Each week, we'll analyze the results from the interest with Our audience on the short-form platforms (in order to create the larger assets, AKA YouTube and Substack). The Kit email will serve similarly to LinkedIn and Twitter. With a daily email, just copywriting and keeping people engaged to see if people like being on the list.
+
+Referencing the post that I point you to in our document, we will build the long-form content off of the best hits from our short-form iteration from the previous one or two weeks.
+
+Generate one new file for each post, name it after the day, and then we will give it a title based on the topic that we need to write about or post about.
+
+## Brand Reference
+if we don't have content we're basing the content off of, reference @brand.md
+
+## Folder Nesting Example
+ 
+    7
+        28th
+            li-agent-orchestration.md
+            x-all-shortform.md
+            ss-orchestration.md
+            yt-orchestration.md
+            kit-spinning-plates.md
+        29th
+            li-apocalypse-acc.md
+            x-all-shortform.md
